@@ -10,4 +10,4 @@ code practice
 -Ubuntu 22.04 LTS
 -OpenJDK 17
 
-This is a part of learning Java
+This is a project I am working on as part of my Java learning journey.
