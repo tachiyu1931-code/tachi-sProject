@@ -9,3 +9,5 @@ code practice
 ##Development environment
 -Ubuntu 22.04 LTS
 -OpenJDK 17
+
+This is a part of learning Java
