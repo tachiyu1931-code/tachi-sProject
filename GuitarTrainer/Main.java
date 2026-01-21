@@ -1,12 +1,12 @@
 package GuitarTrainer;
 
-import GuitarTrainer.menu.PracMenu;
+import GuitarTrainer.menu.PracticeMenu;
 
 public class Main {
     
     public static void main(String[] args) {
 
-        PracMenu pMenu = new PracMenu();
+        PracticeMenu pMenu = new PracticeMenu();
         pMenu.start();
         
     }

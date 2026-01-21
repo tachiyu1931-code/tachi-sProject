@@ -1,20 +1,20 @@
 package GuitarTrainer.log;
 
-import GuitarTrainer.core.PracFeature;
-import GuitarTrainer.menu.LogMenu;
+import GuitarTrainer.core.PracticeFeature;
+import GuitarTrainer.menu.PracticeLogMenu;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class PracticeLog implements PracFeature{
+public class PracticeLog implements PracticeFeature{
     
     private Scanner sc = new Scanner(System.in);
-    private ArrayList<String> pracLog;
+    private ArrayList<String> practiceLog;
 
     @Override
     public void start(){
         System.out.println(getName());
         //
-        LogMenu logmenu = new LogMenu();
+        PracticeLogMenu logmenu = new PracticeLogMenu();
         logmenu.showMenu();
 
 

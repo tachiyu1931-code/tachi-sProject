@@ -1,5 +1,5 @@
 package GuitarTrainer.menu;
-public class PracMenu{
+public class PracticeMenu{
 
     private boolean running = true;
 
@@ -7,7 +7,7 @@ public class PracMenu{
 
         while(running){
             showMenu();
-            SelectMenu sMenu = new SelectMenu();
+            MenuSelecter sMenu = new MenuSelecter();
             running = sMenu.isRunning();
         }
     }

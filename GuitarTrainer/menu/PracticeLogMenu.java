@@ -1,10 +1,10 @@
 package GuitarTrainer.menu;
 
-public class LogMenu extends PracMenu {
+public class PracticeLogMenu extends PracticeMenu {
     
     private boolean running = true;
 
-    public LogMenu() {
+    public PracticeLogMenu() {
         super();
     }
 

@@ -1,6 +1,6 @@
 package GuitarTrainer.core;
 
-public interface PracFeature {
+public interface PracticeFeature {
 
     void start();
     void stop();

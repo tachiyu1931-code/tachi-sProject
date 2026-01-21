@@ -2,9 +2,9 @@ package GuitarTrainer.log;
 
 import GuitarTrainer.core.BaseView;
 
-public class PracLogView extends BaseView {
+public class PracticeLogView extends BaseView {
     
-    public PracLogView(){
+    public PracticeLogView(){
         super("Keep a practice log");
     }
 

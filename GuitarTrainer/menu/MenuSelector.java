@@ -1,23 +1,21 @@
 package GuitarTrainer.menu;
 
 import GuitarTrainer.core.BaseView;
-import GuitarTrainer.core.PracFeature;
-import GuitarTrainer.core.ChordView;
-import GuitarTrainer.practice.ChordTrainer;
-import GuitarTrainer.log.PracLogView;
+import GuitarTrainer.core.ChordPracticeView;
+import GuitarTrainer.core.PracticeFeature;
 import GuitarTrainer.log.PracticeLog;
-
-
+import GuitarTrainer.log.PracticeLogView;
+import GuitarTrainer.practice.ChordTrainer;
 import java.util.Scanner;
 
-public final class SelectMenu {
+public final class MenuSelector {
 
     private static Scanner sc = new Scanner(System.in);//import
     private int selectNumber;//selectnumber
     private boolean running = true;
 
     //select number in menu
-    public SelectMenu(){
+    public MenuSelector(){
         System.out.println("***Select 0 or 1 or 2***");
         this.selectNumber = sc.nextInt();
         menuNumber(selectNumber);
@@ -29,20 +27,20 @@ public final class SelectMenu {
         switch(selectNumber){
             case 1:
                 //Call ChordView
-                BaseView cView = new ChordView();
+                BaseView cView = new ChordPracticeView();
                 cView.show();
 
                 //Call ChordTrainer
-                PracFeature trainer = new ChordTrainer();
+                PracticeFeature trainer = new ChordTrainer();
                 trainer.start();
                 break;
 
             case 2:
                 //Call PracLogView
-                BaseView lView = new PracLogView();
+                BaseView lView = new PracticeLogView();
                 lView.show();
                 //Call PracticeLog
-                PracFeature log = new PracticeLog();
+                PracticeFeature log = new PracticeLog();
                 log.start();
                 break;
 

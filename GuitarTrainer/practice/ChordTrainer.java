@@ -1,11 +1,10 @@
 package GuitarTrainer.practice;
 
-import GuitarTrainer.core.PracFeature;
-
+import GuitarTrainer.core.PracticeFeature;
 import java.util.Random;
 import java.util.Scanner;
 
-public class ChordTrainer implements PracFeature{
+public class ChordTrainer implements PracticeFeature{
 
     private String[] chords ={
         "C","D","E","F","G","A","B",

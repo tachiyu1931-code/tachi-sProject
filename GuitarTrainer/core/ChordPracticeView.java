@@ -1,8 +1,8 @@
 package GuitarTrainer.core;
 
-public class ChordView extends BaseView{
+public class ChordPracticeView extends BaseView{
 
-    public ChordView() {
+    public ChordPracticeView() {
         super("Chord trainer");
     }
 
