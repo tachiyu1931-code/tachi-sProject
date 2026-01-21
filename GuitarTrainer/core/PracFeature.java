@@ -1,3 +1,5 @@
+package GuitarTrainer.core;
+
 public interface PracFeature {
 
     void start();

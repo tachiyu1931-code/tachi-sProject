@@ -1,3 +1,7 @@
+package GuitarTrainer.log;
+
+import GuitarTrainer.core.PracFeature;
+import GuitarTrainer.menu.LogMenu;
 import java.util.ArrayList;
 import java.util.Scanner;
 

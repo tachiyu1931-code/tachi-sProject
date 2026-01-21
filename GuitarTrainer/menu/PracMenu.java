@@ -1,3 +1,4 @@
+package GuitarTrainer.menu;
 public class PracMenu{
 
     private boolean running = true;

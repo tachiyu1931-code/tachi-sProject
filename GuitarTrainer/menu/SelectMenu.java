@@ -1,3 +1,13 @@
+package GuitarTrainer.menu;
+
+import GuitarTrainer.core.BaseView;
+import GuitarTrainer.core.PracFeature;
+import GuitarTrainer.core.ChordView;
+import GuitarTrainer.practice.ChordTrainer;
+import GuitarTrainer.log.PracLogView;
+import GuitarTrainer.log.PracticeLog;
+
+
 import java.util.Scanner;
 
 public final class SelectMenu {

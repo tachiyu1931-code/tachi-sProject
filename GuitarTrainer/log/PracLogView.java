@@ -1,3 +1,7 @@
+package GuitarTrainer.log;
+
+import GuitarTrainer.core.BaseView;
+
 public class PracLogView extends BaseView {
     
     public PracLogView(){
@@ -6,7 +10,7 @@ public class PracLogView extends BaseView {
 
     @Override
     public void show(){
-        System.out.println("******"+title+"******");
+        System.out.println("******" + title + "******");
         
 
     }

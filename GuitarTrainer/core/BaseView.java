@@ -1,6 +1,8 @@
+package GuitarTrainer.core;
+
 public abstract class BaseView {
 
-    String title;
+    protected String title;
     
     public BaseView(String title){
         this.title = title;

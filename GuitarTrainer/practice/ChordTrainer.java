@@ -1,3 +1,7 @@
+package GuitarTrainer.practice;
+
+import GuitarTrainer.core.PracFeature;
+
 import java.util.Random;
 import java.util.Scanner;
 

@@ -1,3 +1,5 @@
+package GuitarTrainer.menu;
+
 public class LogMenu extends PracMenu {
     
     private boolean running = true;

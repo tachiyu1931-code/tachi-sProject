@@ -1,3 +1,5 @@
+package GuitarTrainer.core;
+
 public class ChordView extends BaseView{
 
     public ChordView() {
