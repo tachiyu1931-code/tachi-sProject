@@ -8,6 +8,7 @@ public class PracticeLogMenu extends PracticeMenu {
         super();
     }
 
+
     public void start(){
 
         while(running){

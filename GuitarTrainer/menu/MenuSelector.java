@@ -9,13 +9,16 @@ import GuitarTrainer.practice.ChordTrainer;
 import java.util.Scanner;
 
 public final class MenuSelector {
-
-    private static Scanner sc = new Scanner(System.in);//import
-    private int selectNumber;//selectnumber
+    Scanner sc = new Scanner(System.in);
+    private int selectNumber;
     private boolean running = true;
 
     //select number in menu
     public MenuSelector(){
+        selectMenu();
+    }
+
+    public void selectMenu(){
         System.out.println("***Select 0 or 1 or 2***");
         this.selectNumber = sc.nextInt();
         menuNumber(selectNumber);

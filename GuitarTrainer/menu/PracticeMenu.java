@@ -1,13 +1,18 @@
 package GuitarTrainer.menu;
-public class PracticeMenu{
 
+
+public class PracticeMenu{
     private boolean running = true;
 
-    public void start(){
 
+    public void start(){
+        startPractice();
+    }
+
+    public void startPractice(){
         while(running){
             showMenu();
-            MenuSelecter sMenu = new MenuSelecter();
+            MenuSelector sMenu = new MenuSelector();
             running = sMenu.isRunning();
         }
     }
