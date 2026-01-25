@@ -19,6 +19,10 @@ public class ChordTrainer implements PracticeFeature{
 
     @Override
     public void start(){
+        practiceChord();
+    }
+
+    public void practiceChord(){
 
         System.out.println("Start chord training");
         running = true;//when the CodeTrainer is running,assign true
@@ -34,7 +38,6 @@ public class ChordTrainer implements PracticeFeature{
                 stop();
             }
         }
-        
     }
 
     @Override

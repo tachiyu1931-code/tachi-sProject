@@ -4,8 +4,8 @@ public abstract class BaseView {
 
     protected String title;
     
-    public BaseView(String title){
-        this.title = title;
+    public void start(){
+        show();
     }
 
     public abstract void show();

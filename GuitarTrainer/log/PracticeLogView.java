@@ -5,7 +5,12 @@ import GuitarTrainer.core.BaseView;
 public class PracticeLogView extends BaseView {
     
     public PracticeLogView(){
-        super("Keep a practice log");
+        start();
+    }
+
+    @Override
+    public void start(){
+        show();
     }
 
     @Override

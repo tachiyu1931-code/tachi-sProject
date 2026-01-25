@@ -18,7 +18,6 @@ public class PracticeMenu{
     }
     
     public void showMenu(){
-        //Show menu
         System.out.println("******Guitar trainer******");
         System.out.println();
         System.out.println("1,Chord trainer");

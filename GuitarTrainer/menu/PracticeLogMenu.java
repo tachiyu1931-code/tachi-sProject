@@ -8,7 +8,7 @@ public class PracticeLogMenu extends PracticeMenu {
         super();
     }
 
-
+    @Override
     public void start(){
 
         while(running){
