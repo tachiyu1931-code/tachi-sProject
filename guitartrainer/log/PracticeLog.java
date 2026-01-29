@@ -1,7 +1,7 @@
-package GuitarTrainer.log;
+package guitartrainer.log;
 
-import GuitarTrainer.core.PracticeFeature;
-import GuitarTrainer.menu.PracticeLogMenu;
+import guitartrainer.core.PracticeFeature;
+import guitartrainer.menu.PracticeLogMenu;
 import java.util.ArrayList;
 
 public class PracticeLog implements PracticeFeature{
@@ -15,12 +15,12 @@ public class PracticeLog implements PracticeFeature{
     }
 
     
-    public void showTitle(){
+    private void showTitle(){
         System.out.println(getName());
     }
 
 
-    public void showMenu(){
+    private void showMenu(){
         PracticeLogMenu logmenu = new PracticeLogMenu();
         logmenu.showMenu();
     }

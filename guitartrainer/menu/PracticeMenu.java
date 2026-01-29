@@ -1,4 +1,4 @@
-package GuitarTrainer.menu;
+package guitartrainer.menu;
 
 
 public class PracticeMenu{

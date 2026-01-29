@@ -1,6 +1,6 @@
-package GuitarTrainer.practice;
+package guitartrainer.practice;
 
-import GuitarTrainer.core.PracticeFeature;
+import guitartrainer.core.PracticeFeature;
 import java.util.Random;
 import java.util.Scanner;
 
@@ -22,22 +22,37 @@ public class ChordTrainer implements PracticeFeature{
         practiceChord();
     }
 
-    public void practiceChord(){
+    
 
+    public void practiceChord(){
+        startPractice();
+        practice();
+    }
+
+    protected void startPractice(){
         System.out.println("Start chord training");
         running = true;//when the CodeTrainer is running,assign true
+    }
 
+    protected void practice(){
         while(running){
-            String chord = chords[rand.nextInt(chords.length)];
-            System.out.println("Play this chord ->"+chord);//Show random chord
-            System.out.println("Press Enter -> next");
-            System.out.println("Press 0 -> Exit");
+            showChords();
+            input();
+        }
+    }
 
-            String input = sc.nextLine();
+    protected void showChords(){
+        String chord = chords[rand.nextInt(chords.length)];
+        System.out.println("Play this chord ->"+chord);//Show random chord
+        System.out.println("Press Enter -> next");
+        System.out.println("Press 0 -> Exit");
+    }
+
+    protected void input(){
+        String input = sc.nextLine();
             if(input.equals("0")){
                 stop();
             }
-        }
     }
 
     @Override

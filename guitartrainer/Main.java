@@ -1,6 +1,6 @@
-package GuitarTrainer;
+package guitartrainer;
 
-import GuitarTrainer.menu.PracticeMenu;
+import guitartrainer.menu.PracticeMenu;
 
 public class Main {
     

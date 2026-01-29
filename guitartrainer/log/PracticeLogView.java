@@ -1,12 +1,8 @@
-package GuitarTrainer.log;
+package guitartrainer.log;
 
-import GuitarTrainer.core.BaseView;
+import guitartrainer.core.BaseView;
 
 public class PracticeLogView extends BaseView {
-    
-    public PracticeLogView(){
-        start();
-    }
 
     @Override
     public void start(){

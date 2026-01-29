@@ -1,4 +1,4 @@
-package GuitarTrainer.core;
+package guitartrainer.core;
 
 public class ChordPracticeView extends BaseView{
 
