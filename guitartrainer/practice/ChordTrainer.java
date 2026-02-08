@@ -10,9 +10,10 @@ public class ChordTrainer implements PracticeFeature{
         "C","D","E","F","G","A","B",
         "Cm","Dm","Em","Fm","Am","Bm",
         "C7","D7","E7","F7","G7","A7","B7",
-        "Csus4","Dsus4","Esus4","Fsus4","Gsus4","Asus4","Bsus4",
+        "Csus4","Dsus4","Esus4","Fsus4","Gsus4","Asus4","Bsus4"
 
     };
+    
     private Random rand = new Random();
     private Scanner sc = new Scanner(System.in);
     private boolean running = true;

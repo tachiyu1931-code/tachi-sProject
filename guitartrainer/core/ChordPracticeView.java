@@ -7,6 +7,7 @@ public class ChordPracticeView extends BaseView{
     public ChordPracticeView() {
         super();
     }
+    
     public String getTitle(){
         return title;
     }
