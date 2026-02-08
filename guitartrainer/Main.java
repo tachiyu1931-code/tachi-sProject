@@ -1,14 +1,12 @@
 package guitartrainer;
-
-import guitartrainer.menu.PracticeMenu;
+import menu.startmenu.StartMenuSeletor;
 
 public class Main {
     
     public static void main(String[] args) {
 
-        PracticeMenu pMenu = new PracticeMenu();
-        pMenu.start();
-
+        StartMenuSeletor startMenu = new StartMenuSeletor();
+        startMenu.start();
         
         
     }

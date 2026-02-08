@@ -1,8 +1,8 @@
 package guitartrainer.practice;
 
+import guitartrainer.core.InputReception;
 import guitartrainer.core.PracticeFeature;
 import java.util.Random;
-import java.util.Scanner;
 
 public class ChordTrainer implements PracticeFeature{
 
@@ -15,17 +15,10 @@ public class ChordTrainer implements PracticeFeature{
     };
     
     private Random rand = new Random();
-    private Scanner sc = new Scanner(System.in);
     private boolean running = true;
 
     @Override
     public void start(){
-        practiceChord();
-    }
-
-    
-
-    public void practiceChord(){
         startPractice();
         practice();
     }
@@ -33,6 +26,7 @@ public class ChordTrainer implements PracticeFeature{
     protected void startPractice(){
         System.out.println("Start chord training");
         running = true;//when the CodeTrainer is running,assign true
+
     }
 
     protected void practice(){
@@ -50,7 +44,7 @@ public class ChordTrainer implements PracticeFeature{
     }
 
     protected void input(){
-        String input = sc.nextLine();
+        String input = InputReception.nextLine();
             if(input.equals("0")){
                 stop();
             }
