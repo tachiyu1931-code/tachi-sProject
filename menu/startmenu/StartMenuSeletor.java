@@ -1,4 +1,5 @@
 package menu.startmenu;
+
 import guitartrainer.core.BaseMenu;
 import guitartrainer.core.InputReception;
 import guitartrainer.practice.ChordTrainer;
